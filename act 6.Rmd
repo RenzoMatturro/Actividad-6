@@ -38,3 +38,11 @@ Primero tenés que saber la conversión de galones a litros y de millas a kilóm
 `1 gallón = 3.78541 litros`
 
 `1 milla = 1.60934 km`
+
+``` {r mpg}
+filter(mpg,year==2008,hwy>31)
+```
+
+```{r mpg}
+filter(mpg,cty==9|hwy>90)
+```
